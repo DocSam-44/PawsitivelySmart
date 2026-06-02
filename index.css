@@ -1,0 +1,20 @@
+body {background-color: rgb(255, 160, 125);}
+sub {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+h1 {
+  line-height: 2; 
+  margin-bottom: 0px;
+}
+
+sub {
+  line-height: 1.7; 
+  margin-bottom: 0px;
+}
+
+h1 {background-color: rgb(125, 196, 255);}
+sub {background-color: rgb(125, 196, 255);}
