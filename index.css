@@ -10,10 +10,10 @@ h1 {
   line-height: 2; 
   margin-bottom: 0px;
 }
-/* I googled fun css templates and discovered this glowing text addition */
+/* * I googled fun css templates and discovered this glowing text addition which adds a shadow behind the text to accentuate it as well */
 h1 {
   color: #00e9ff;
-  text-shadow: 0 0 2px #00e9ff, 0 0 20px #0088ff;
+  text-shadow: 0 0 2px #219ba6, 0 0 20px #0088ff;
 }
 
 sub {
