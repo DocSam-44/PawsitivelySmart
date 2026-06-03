@@ -10,11 +10,16 @@ h1 {
   line-height: 2; 
   margin-bottom: 0px;
 }
+/* I googled fun css templates and discovered this glowing text addition */
+h1 {
+  color: #00e9ff;
+  text-shadow: 0 0 2px #00e9ff, 0 0 20px #0088ff;
+}
 
 sub {
   line-height: 1.7; 
   margin-bottom: 0px;
 }
 
-h1 {background-color: rgb(125, 196, 255);}
-sub {background-color: rgb(125, 196, 255);}
+h1 {background-color: rgba(247, 248, 247, 0.856);}
+/* sub {background-color: rgb(125, 196, 255);} */
