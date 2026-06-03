@@ -16,11 +16,85 @@
 
 
         <ul>
+            <li><a href="#Pets">Pet Sitting</a></li>
             <li><a href="#Tutoring">Tutoring</a></li>
-            </li>
         </ul>
+<h2>About Me</h2>
+<p>My name is Samantha Mayer and I am a third year Medical Science Student. My pronouns are she/her. I offer both tutoring and pet sitting services which can be explored below or directly accessed by clicking on the links above.</p>
 
-<h3 id="Tutoring">Student Accessibility Services</h3>
+<h2 id="Pets">Pet Sitting</h2>
+<!-- *from here to the closing of the script tag is the code that makes the slideshow - sourced from w3  -->
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="golden-retriever-gr-adult-dog-outdoors-7966988.webp" style="width:80%">
+        <div class="text">Dogs</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="red-cat-lying-on-grass-600nw-2740131941.webp" style="width:80%">
+        <div class="text">Cats</div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="group-cute-pets-on-white-600nw-2737831129.webp" style="width:80%">
+        <div class="text">Everything!</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+
+
+
+<h2 id="Tutoring">Tutoring</h2>
+
+
+
+
+
 
   </body>
   <!-- Include your javascript file here: -->
