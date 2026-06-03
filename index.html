@@ -85,10 +85,15 @@
         }
         </script>
 
-<h3>Pricing</h3>
-<p>$25/hr for elementry level</p>
-<p>$30/hr for high school level</p>
-<p>$30/hr for university level</p>
+<h3>Pet-Sitting Pricing</h3>
+
+<ul>
+
+<li>$20/hr for small animals</li>
+<li>$25/hr for cats</li>
+<li>$30/hr for dogs</li>
+    
+</ul>
 
        <div class="container">
     <form action="action_page.php">
@@ -108,7 +113,7 @@
             <option value="Fonthill">Fonthill</option>
         </select>
 
-        <label for="subject">Subject</label>
+        <label for="subject">Pet type & important information</label>
         <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
 
         <input type="submit" value="Submit">
@@ -189,7 +194,49 @@ function showSlides2(n) {
 }
 </script>
 
+<h3>Online Tutoring Pricing</h3>
 
+<ul>
+<li>$25/hr for elementry level</li>
+<li>$30/hr for high school level</li>
+<li>$30/hr for university level</li>
+
+</ul>
+
+<h3>In-Person Tutoring Pricing</h3>
+
+<ul>
+<li>$35/hr for elementry level</li>
+<li>$40/hr for high school level</li>
+<li>$40/hr for university level</li>
+
+</ul>
+
+ <div class="container">
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="town">Town</label>
+        <select id="town" name="town">
+            <option value="St. Catharines">St. Catharines</option>
+            <option value="Thorold">Thorold</option>
+            <option value="Welland">Welland</option>
+            <option value="Port Colborne">Port Colborne</option>
+            <option value="Fonthill">Fonthill</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
 
 
   </body>
