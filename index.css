@@ -144,3 +144,52 @@ img {
     background-color: lightgray;
   }
 }
+
+/* ! this is for the navbar function */
+
+/* Reset body to prevent default gaps at the top */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* The fixed-height navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px; /* Controls the exact thinness of the box */
+    height: 60px;       /* Hard limits the height so it cannot expand */
+    width: 100%;        /* Stretches it safely from left to right */
+    box-sizing: border-box;
+}
+
+.logo {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Keeps the two links in a tight horizontal line */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between your two links */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #cbd5e1;
+}
