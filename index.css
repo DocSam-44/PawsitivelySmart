@@ -44,6 +44,7 @@ sub {
 
 h1 {background-color: rgba(196, 123, 172, 0.9);}
 h2 {background-color: rgba(196, 123, 172, 0.9);}
+h3 {background-color: rgba(196, 123, 172, 0.9);}
 p {background-color: rgba(166, 228, 166, 0.8);}
 ul {background-color: rgba(166, 228, 166, 0.8);}
 sub {background-color: rgba(166, 228, 166, 0.8);}
@@ -126,3 +127,11 @@ img {
   /* thickness (5px), style (solid), and color (black) */
   border: 8px solid black; 
 }
+
+/* this will let me add a background to only the text under my slideshow and not the image */
+/* 
+.mySlides .text {
+ background-color: #219ba6;
+} */
+
+/* todo Somwhow the subheading is able to have only the background behind the text colours but I cannot figure out how to do that for the text labels under the slideshow images. -- in relation to the code above */
