@@ -44,9 +44,9 @@ sub {
 
 h1 {background-color: rgba(196, 123, 172, 0.9);}
 h2 {background-color: rgba(196, 123, 172, 0.9);}
-p {background-color: rgba(166, 228, 166, 0.9);}
-ul {background-color: rgba(166, 228, 166, 0.9);}
-sub {background-color: rgba(166, 228, 166, 0.9);}
+p {background-color: rgba(166, 228, 166, 0.8);}
+ul {background-color: rgba(166, 228, 166, 0.8);}
+sub {background-color: rgba(166, 228, 166, 0.8);}
 /* sub {background-color: rgb(125, 196, 255);} */
 
 /* * All the below features were used to make the submission option. It wasn't applying in a way that look right so I asked ai to help format it but otherwise the code came from w3 */
