@@ -135,3 +135,12 @@ img {
 } */
 
 /* todo Somwhow the subheading is able to have only the background behind the text colours but I cannot figure out how to do that for the text labels under the slideshow images. -- in relation to the code above */
+
+
+/* * media querry to make the website usable on a phone */
+@media (max-width: 768px) {
+  /* Styles applied only when screen width is 768px or less */
+  body {
+    background-color: lightgray;
+  }
+}
