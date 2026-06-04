@@ -15,7 +15,7 @@
 
 // ! works with the html and css code to change the website's colours to better suit those with colour blindness
 
-const button = document.getElementById("colorblind-toggle");
+const button = document.getElementById("colourblind");
 
 button.addEventListener("click", () => {
     document.body.classList.toggle("colorblind");
