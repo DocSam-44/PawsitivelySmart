@@ -63,6 +63,13 @@ ul {background-color: rgba(166, 228, 166, 0.8);}
     margin-top: 10px;
 }
 
+#colourblind {
+    background-color: rgb(74, 74, 213);
+    color: #ffffff;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+
 /* * All the below features were used to make the submission option. It wasn't applying in a way that look right so I asked ai to help format it but otherwise the code came from w3 */
 .container {
     max-width: 600px;
@@ -216,6 +223,7 @@ body.colorblind {
     background-color: #ffffff;
     color: #000000;
 }
+
 
 body.colorblind .navbar {
     background-color: #003366;

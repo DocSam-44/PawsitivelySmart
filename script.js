@@ -3,13 +3,10 @@
 
 // connect the link
 
-// look into accessability design for those with colour blindness
-// maybe click a button that changes to more accessible colours
-// image tag alt to give a screen reader work
-
 // add copyright tag
 
 // add a footer
+    // *footer keeps overlapping with bottom survey and wont let me add info on more than one line
 
 // testimonials section
 
