@@ -12,3 +12,11 @@
 // add a footer
 
 // testimonials section
+
+// ! works with the html and css code to change the website's colours to better suit those with colour blindness
+
+const button = document.getElementById("colorblind-toggle");
+
+button.addEventListener("click", () => {
+    document.body.classList.toggle("colorblind");
+});

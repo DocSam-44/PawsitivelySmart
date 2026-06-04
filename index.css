@@ -47,8 +47,22 @@ h2 {background-color: rgba(196, 123, 172, 0.9);}
 h3 {background-color: rgba(196, 123, 172, 0.9);}
 p {background-color: rgba(166, 228, 166, 0.8);}
 ul {background-color: rgba(166, 228, 166, 0.8);}
-sub {background-color: rgba(166, 228, 166, 0.8);}
+/* sub {background-color: rgba(166, 228, 166, 0.8);} */
 /* sub {background-color: rgb(125, 196, 255);} */
+
+/* ! had to add this code below because the green background from the css above wass also affecting the text here and it looked bad */
+.navbar ul,
+.navbar p,
+.navbar sub {
+    background-color: transparent;
+}
+
+
+.colourblind {
+    background-color: transparent;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
 
 /* * All the below features were used to make the submission option. It wasn't applying in a way that look right so I asked ai to help format it but otherwise the code came from w3 */
 .container {
@@ -147,11 +161,11 @@ img {
 
 /* ! this is for the navbar function */
 
-/* Reset body to prevent default gaps at the top */
-body {
+/* Reset body to prevent default gaps at the top -- didn't want this*/
+/* body {
     margin: 0;
     padding: 0;
-}
+} */
 
 /* The fixed-height navbar */
 .navbar {
@@ -163,8 +177,10 @@ body {
     height: 60px;       /* Hard limits the height so it cannot expand */
     width: 100%;        /* Stretches it safely from left to right */
     box-sizing: border-box;
+    opacity: 0.9;
 }
 
+/* "navigation links" css code */
 .logo {
     color: white;
     font-family: Arial, sans-serif;
@@ -180,7 +196,7 @@ body {
 }
 
 .nav-links li {
-    margin-left: 20px; /* Space between your two links */
+    margin-left: 50px; /* Space between your two links */
 }
 
 .nav-links a {
@@ -192,4 +208,26 @@ body {
 
 .nav-links a:hover {
     color: #cbd5e1;
+}
+
+
+/* ! making it colour blind friendly */
+/* Color-blind-friendly theme */
+body.colorblind {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.colorblind .navbar {
+    background-color: #003366;
+}
+
+body.colorblind a {
+    color: #0055cc;
+}
+
+body.colorblind p,
+body.colorblind ul,
+body.colorblind sub {
+    background-color: #d9e8ff;
 }
