@@ -1,4 +1,25 @@
-body {background-color: rgb(255, 160, 125);}
+/* body {background-color: rgb(255, 160, 125);} */
+
+
+/* * based on a website I found that lets you add a cool background and then asked ai to use two different shades of pink to encorporate animals and tutoring themed things */
+body {
+    /* Fallback color matching the lighter shade of pink */
+    background-color: #ffb6c1; 
+
+    /* Link to your saved pink vector pattern */
+    background-image: url("download.jpg");
+
+    /* Makes the pattern tile continuously across the background */
+    background-repeat: repeat;
+
+    /* Optional: Controls the scale of the little animals and tutoring icons */
+    background-size: 1000px; 
+
+    /* Ensures the background stays fixed while scrolling the page content */
+    background-attachment: fixed;
+}
+
+
 sub {
   font-size: 1.2rem;
 }
@@ -21,15 +42,18 @@ sub {
   margin-bottom: 0px;
 }
 
-h1 {background-color: rgba(247, 248, 247, 0.856);}
-h2 {background-color: rgba(247, 248, 247, 0.856);}
+h1 {background-color: rgba(196, 123, 172, 0.9);}
+h2 {background-color: rgba(196, 123, 172, 0.9);}
+p {background-color: rgba(166, 228, 166, 0.9);}
+ul {background-color: rgba(166, 228, 166, 0.9);}
+sub {background-color: rgba(166, 228, 166, 0.9);}
 /* sub {background-color: rgb(125, 196, 255);} */
 
 /* * All the below features were used to make the submission option. It wasn't applying in a way that look right so I asked ai to help format it but otherwise the code came from w3 */
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background: rgb(119, 184, 156);
+    background: rgb(143, 97, 146);
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -60,7 +84,7 @@ textarea {
 
 input[type="submit"] {
     width: 100%;
-    background-color: #0078d7;
+    background-color: #3caf6c;
     color: white;
     padding: 14px;
     margin-top: 20px;
