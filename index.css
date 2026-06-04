@@ -100,7 +100,7 @@ input[type="submit"]:hover {
 /* * All of the below 'a' css additions are from the same link that made the headings glow. It makes it so that when you hover over a link a line appears underneath. It is a very cool aesthetic */
 a {
   position: relative;
-  color: rgb(54, 28, 221);
+  color: rgb(4, 4, 5);
   text-decoration: none;
 }
 
@@ -119,4 +119,10 @@ a:hover::after,
 a:focus-visible::after {
   width: 100%;
   left: 0;
+}
+
+/* todo I need to apply this to the hero forge image as well. maybe adding an id word work (?) */
+img {
+  /* thickness (5px), style (solid), and color (black) */
+  border: 8px solid black; 
 }
