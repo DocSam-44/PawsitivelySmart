@@ -81,8 +81,25 @@ ul {background-color: rgba(166, 228, 166, 0.8);}
 }
 
 #content{
-    padding: 10px 0px 50px 10px;
+    padding: 10px 0px 30px 10px;
 }
+
+.footer-content p {
+    background-color: transparent;
+    /* padding-top: 10px; */
+}
+
+.footer-content ul {
+    background-color: transparent;
+    /* padding-top: 10px; */
+}
+
+.contact {
+padding-left: 20px;
+
+}
+
+
 
 label {
     display: block;
@@ -241,4 +258,56 @@ body.colorblind p,
 body.colorblind ul,
 body.colorblind sub {
     background-color: #d9e8ff;
+}
+
+
+
+/* ! this is for the footer */
+/* Style the footer container */
+.site-footer {
+    background-color: #060101;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Align contents nicely */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Remove default list styles from links */
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* Style the links */
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Add this to your CSS file */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1; /* This pushes down the footer by occupying all available empty space */
 }
